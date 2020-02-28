@@ -10,11 +10,11 @@
 
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="278dp"
+        android:layout_height="278dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="30dp"
-        android:src="@drawable/logo"/>
+        android:layout_marginTop="150dp"
+        android:src="@drawable/logo" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -29,18 +29,20 @@
 
     <com.google.android.gms.common.SignInButton
         android:id="@+id/sign_in_button"
+        style="@style/Base.TextAppearance.AppCompat.Large"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/button_selector"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
         android:layout_marginRight="20dp"
-        android:paddingRight="10dp"
+        android:background="@drawable/button_selector"
         android:paddingLeft="10dp"
         android:paddingTop="10dp"
+        android:paddingRight="10dp"
         android:paddingBottom="10dp"
-        />
+        android:textSize="10sp"
+         />
 
 
 </LinearLayout>

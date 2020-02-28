@@ -3,10 +3,7 @@ apply plugin: 'com.android.application'
 android {
     signingConfigs {
         config {
-            storeFile file('C:\\Users\\Rajat Thakur\\Downloads\\TheShepherGames.keystore')
-            storePassword 'Sudeep@98'
-            keyPassword 'Sudeep@98'
-            keyAlias = 'sudeepkumarvundurty'
+
         }
     }
     compileSdkVersion 29
