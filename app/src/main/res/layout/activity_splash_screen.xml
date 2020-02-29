@@ -26,8 +26,9 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
-        android:text="DIVVI PAY"
-        android:textColor="@color/appcolor"
+        android:text="DIVVIPAY"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/test"
         android:textSize="30sp"
         android:textStyle="bold" />
 </LinearLayout>

@@ -136,8 +136,8 @@ public class Login_With_Phone extends Fragment implements View.OnClickListener {
 
         if(!Name.equalsIgnoreCase(""))
         {
-          mNameField.setText(Name);
-          mNameField.setEnabled(false);
+            mNameField.setText(Name);
+            mNameField.setEnabled(false);
         }
         mAuth = FirebaseAuth.getInstance();
         // [END initialize_auth]
@@ -447,7 +447,7 @@ public class Login_With_Phone extends Fragment implements View.OnClickListener {
                     public void run() {
                         // this code will be executed after 2 seconds
                         mResendButton.setEnabled(true);
-                       mResendButton.setBackgroundResource(R.drawable.button_selector);
+                        mResendButton.setBackgroundResource(R.drawable.button_selector);
                     }
                 }, 30000);
                 break;

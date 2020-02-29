@@ -236,6 +236,7 @@ public class Dashboard extends AppCompatActivity {
                 intent.setAction(Intent.ACTION_GET_CONTENT);
                 intent.addCategory(Intent.CATEGORY_OPENABLE);
                 startActivityForResult(intent, PICK_IMAGE_REQUEST);
+
             }
         });
 

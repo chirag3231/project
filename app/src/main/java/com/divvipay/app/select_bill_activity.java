@@ -250,6 +250,9 @@ public class select_bill_activity extends AppCompatActivity {
                 }
             }
         }
+
+
+
         //get croped image
         if (requestCode == CropImage.CROP_IMAGE_ACTIVITY_REQUEST_CODE) {
             CropImage.ActivityResult result = CropImage.getActivityResult(data);

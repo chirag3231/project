@@ -211,18 +211,18 @@
             android:stretchColumns="*"
             android:background="@drawable/buttonshape"/>-->
 
-    <Button
-        android:text="CREATE"
-        android:id="@+id/button_SUBMIT"
-        android:textColor="#FFFFFF"
-        android:textSize="23sp"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:background="@drawable/button_selector"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"
-        android:layout_gravity="center_horizontal"/>
+        <Button
+            android:id="@+id/button_SUBMIT"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_selector"
+            android:text="CREATE"
+            android:textColor="#FFFFFF"
+            android:textSize="23sp" />
     </LinearLayout>
 </ScrollView>
