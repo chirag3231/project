@@ -1,0 +1,80 @@
+{
+  "project_info": {
+    "project_number": "598038092315",
+    "firebase_url": "https://divvipay-d08bf.firebaseio.com",
+    "project_id": "divvipay-d08bf",
+    "storage_bucket": "divvipay-d08bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598038092315:android:c7cc83eeb3401271c4b6be",
+        "android_client_info": {
+          "package_name": "com.divvipay.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "598038092315-c0e86j8jptkcqq9q0tgdp0oab3k8gmua.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.divvipay.app",
+            "certificate_hash": "6f419d4bf175d89ee1f319f24e0e6a6d8333c03a"
+          }
+        },
+        {
+          "client_id": "598038092315-pkahecj2gmvabmoc6akdo369kobhvku5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.divvipay.app",
+            "certificate_hash": "c64ed6a9cf2057fc473643b49bc79ca679779724"
+          }
+        },
+        {
+          "client_id": "598038092315-03vf76vakt8hfa296ttb1sbeo9hpm8np.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.divvipay.app",
+            "certificate_hash": "98a0d9a27e6d9e73e488ed7e19cfc2f2e3c9a5f9"
+          }
+        },
+        {
+          "client_id": "598038092315-n26pfhob764ulrth4dljktoui02jii54.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.divvipay.app",
+            "certificate_hash": "c2d3b26e1fc70787a8f6e123e7d488b3d09087d7"
+          }
+        },
+        {
+          "client_id": "598038092315-u06pb7ffb96150rhqthl9cus4luv10t6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.divvipay.app",
+            "certificate_hash": "8bdda1c9c36c0b8679cfdcaab4d3c93cf8cf8faf"
+          }
+        },
+        {
+          "client_id": "598038092315-jghu74cecqvcp8jddbic5idb9frt4f54.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCphZ3QydpTbl_Tm7Y8oPlxWhldtyStOfY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "598038092315-jghu74cecqvcp8jddbic5idb9frt4f54.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

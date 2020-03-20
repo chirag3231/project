@@ -141,7 +141,8 @@
             app:ccp_showFullName="true"
             android:gravity="center"
             app:ccp_showPhoneCode="true"
-            app:ccp_showNameCode="true"/>
+            app:ccp_showNameCode="true"
+            app:ccp_defaultNameCode="CA"/>
 
         <EditText
             android:id="@+id/friend_Number"

@@ -91,7 +91,8 @@
                         android:gravity="center"
                         app:ccp_showFullName="true"
                         app:ccp_showNameCode="true"
-                        app:ccp_showPhoneCode="true" />
+                        app:ccp_showPhoneCode="true"
+                        app:ccp_defaultNameCode="CA"/>
 
 
                     <EditText
@@ -122,10 +123,10 @@
 
             <LinearLayout
                 android:id="@+id/buttons"
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_width="619dp"
+                android:layout_height="34dp"
                 android:layout_alignParentBottom="true"
-                android:layout_marginBottom="20dp"
+                android:layout_marginBottom="5dp"
                 android:gravity="center_vertical"
                 android:orientation="horizontal"
                 android:weightSum="3.0">
@@ -147,8 +148,8 @@
                     android:layout_weight="1.0"
                     android:background="@drawable/button_selector"
                     android:text="Verify"
-                    android:visibility="gone"
-                    android:textColor="@color/white" />
+                    android:textColor="@color/white"
+                    android:visibility="gone" />
 
                 <Button
                     android:id="@+id/buttonResend"
@@ -158,8 +159,8 @@
                     android:layout_weight="1.0"
                     android:background="@drawable/button_selector"
                     android:text="Resend"
-                    android:visibility="gone"
-                    android:textColor="@color/white" />
+                    android:textColor="@color/white"
+                    android:visibility="gone" />
             </LinearLayout>
 
         </RelativeLayout>
